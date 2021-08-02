@@ -13,3 +13,7 @@ The models in this app were retrieved from the mentioned paper, a Covid study on
 * D’(t) = γ * I
 
 where N is population (specified in code for each race/ethn group), β is time until infectious becomes recovered β = 1/(10 days) = 0.1, gamma is death rate of infectious γ = 5 · 10−4, α is contact rate, dependent on time (α(t) ≈  0.3 at beginning of pandemic, α(t) ≈ 0.1 after the lockdown in model and varies more later on)
+
+To start the app, open R inside this folder and type
+`shiny::runApp("death_to_case.R")`. If using Rstudio, make sure you view the app
+within a decent web browser by clicking on "Open in Browser".
